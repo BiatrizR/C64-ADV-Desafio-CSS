@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(102, 102, 176);
+    text-align: center;
+/*  display: inline-block;
+    position: relative;
+    padding: auto; */
+}
+
+img{
+  height:150px;
+  width: 150px;  
+  border-radius: 100%;
+}
+
+#welcome{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+    
+    background: linear-gradient(45deg, gray, orange, rgb(211, 60, 140), purple);
+    top:0%;
+    bottom: 0;
+    
+}
+
+#bio{
+    position: absolute;
+    padding: 50px;
+    height: 100%;
+    background-color: blueviolet;
+    top:50%;
+}
+
+#projects{
+    position: absolute;
+    background-color: rgb(221, 0, 181);
+    top:150%;
+    width: 100%;
+   
+}
+/*colocar os elementos ao lado*/
+.grid{
+
+}
